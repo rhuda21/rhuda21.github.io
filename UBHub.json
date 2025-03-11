@@ -3,6 +3,7 @@
     "keysystem": true,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://gitlab.com/r_soft/ub-hub/-/raw/main/Game.lua",
-    "Debug": "true",
+    "Debug": "false",
+    "useFallbackey": "true",
     "Message": "👋 Welcome to UB Hub | Please make sure to make suggestions in discord. Thank you!"
 }
