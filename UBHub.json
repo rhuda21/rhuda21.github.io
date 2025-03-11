@@ -1,5 +1,5 @@
 {
-    "Name": "UBHubX",
+    "Name": "UBHub",
     "keysystem": true,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://gitlab.com/r_soft/ub-hub/-/raw/main/Game.lua",
