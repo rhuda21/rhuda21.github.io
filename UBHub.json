@@ -4,6 +4,7 @@
     "keysystem": true,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://gitlab.com/r_soft/ub-hub/-/raw/main/Game.lua",
+    "UBLink": "https://gitlab.com/r_soft/main/-/raw/main/UBLink/ScriptControllerService.lua",
     "Debug": false,
     "Message": "🚨 Have caution when exploiting!,banwave ongoing Please use alt's for the Roblox!"
 }
