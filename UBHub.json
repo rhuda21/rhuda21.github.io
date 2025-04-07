@@ -1,7 +1,7 @@
 {
     "Name": "UB Hub | ",
     "workspace": "UBHub",
-    "keysystem": false,
+    "keysystem": true,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
     "UBLink": "https://gitlab.com/r_soft/main/-/raw/main/UBLink/ScriptControllerService.lua",
