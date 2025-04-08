@@ -6,7 +6,7 @@
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
     "UBLink": "https://gitlab.com/r_soft/main/-/raw/main/UBLink/ScriptControllerService.lua",
     "ublinkstate": true,
-    "Debug": false,
+    "Debug": true,
     "cfservices": false,
     "Message": "the banwave has ended! make new feature suggestions in discord 💡"
 }
