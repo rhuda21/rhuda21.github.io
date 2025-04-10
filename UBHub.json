@@ -1,7 +1,7 @@
 {
     "Name": "UB Hub | ",
     "workspace": "UBHub",
-    "keysystem": true,
+    "keysystem": false,
     "keysysflag": true,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
@@ -9,5 +9,5 @@
     "ublinkstate": true,
     "Debug": false,
     "cfservices": true,
-    "Message": "the banwave has ended! make new feature suggestions in discord 💡"
+    "Message": "due to outage in discord I disable key system "
 }
