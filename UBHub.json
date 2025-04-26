@@ -12,7 +12,7 @@
     "cfservices": true,
     "Message": "check out new script bgsi, keyless on discord SERVER!",
     "VERSION": {
-        "bgsi": "2.1.5",
+        "bgsi": "2.1.6",
         "beaks": "2.0.4"
     }
 }
