@@ -6,8 +6,7 @@
     "newkey": true,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
-    "UBLink": "https://gitlab.com/r_soft/main/-/raw/main/UBLink/ScriptControllerService.lua",
-    "ublinkstate": true,
+    "ublinkstate": false,
     "Debug": false,
     "cfservices": true,
     "Message": "check out new script bgsi, keyless on discord SERVER!"
