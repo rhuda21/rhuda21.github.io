@@ -3,7 +3,7 @@
     "workspace": "UBHub",
     "keysystem": true,
     "keysysflag": true,
-    "newkey": true,
+    "newkey": false,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
     "ublinkstate": false,
