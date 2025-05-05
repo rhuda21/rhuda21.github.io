@@ -1,9 +1,8 @@
 {
     "Name": "UB Hub | ",
     "workspace": "UBHub",
-    "keysystem": true,
+    "keysystem": false,
     "keysysflag": true,
-    "newkey": false,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
     "ublinkstate": false,
