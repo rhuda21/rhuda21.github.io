@@ -8,5 +8,6 @@
     "ublinkstate": false,
     "Debug": false,
     "cfservices": true,
+    "TestScript": false,
     "Message": "provide suggestion on the section in discord!"
 }
