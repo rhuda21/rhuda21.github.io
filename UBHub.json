@@ -9,5 +9,6 @@
     "Debug": false,
     "cfservices": true,
     "TestScript": false,
+    "PictureScript": "https://gitlab.com/r_soft/main/-/raw/main/UB_hub_logo.png",
     "Message": "provide suggestion on the section in discord!"
 }
