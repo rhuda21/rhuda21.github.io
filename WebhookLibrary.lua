@@ -7,7 +7,6 @@ local function SendMessageEMBED(url, embed, mention)
         Method = "POST",
         Headers = {
             ["Content-Type"] = "application/json",
-            ["User-Agent"] = ua
         },
         Body = http:JSONEncode({
             content = mention and ("<@" .. mention .. ">") or nil,
