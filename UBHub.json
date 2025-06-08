@@ -6,7 +6,7 @@
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
     "ublinkstate": false,
-    "Debug": false,
+    "Debug": true,
     "cfservices": true,
     "TestScript": false,
     "PictureScript": "https://gitlab.com/r_soft/main/-/raw/main/UB_hub_logo.png",
