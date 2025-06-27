@@ -2,14 +2,11 @@
     "Name": "UB Hub | ",
     "workspace": "UBHub",
     "keysystem": true,
-    "keysysflag": true,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
-    "ublinkstate": false,
+    "KeyAPI": "https://gitlab.com/r_soft/main/-/raw/main/KeySystem/API/DiscordV2.lua?ref_type=heads",
     "Debug": true,
     "FullyDebugger": false,
     "cfservices": true,
-    "TestScript": false,
-    "PictureScript": "https://gitlab.com/r_soft/main/-/raw/main/UB_hub_logo.png",
-    "Message": "If you want other script update please say in discord and features!"
+    "PictureScript": "https://gitlab.com/r_soft/main/-/raw/main/UB_hub_logo.png"
 }
