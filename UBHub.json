@@ -4,7 +4,7 @@
     "keysystem": true,
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
-    "KeyAPI": "https://gitlab.com/r_soft/main/-/raw/main/KeySystem/API/DiscordV2.lua?ref_type=heads",
+    "KeyAPI": "https://gitlab.com/r_soft/main/-/raw/main/KeySystem/API/DiscordV2.lua",
     "Debug": true,
     "FullyDebugger": false,
     "cfservices": true,
