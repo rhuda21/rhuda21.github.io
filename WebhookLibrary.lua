@@ -1,13 +1,10 @@
 local http = game:GetService("HttpService")
-local ua = "Default"
-
 local function SendMessageEMBED(url, embed, mention)
     local response = request({
         Url = url,
         Method = "POST",
         Headers = {
             ["Content-Type"] = "application/json",
-            ["User-Agent"] = ua
         },
         Body = http:JSONEncode({
             content = mention and ("<@" .. mention .. ">") or nil,
@@ -32,11 +29,4 @@ local function SendMessageEMBED(url, embed, mention)
     })
 end
 
-local function setUser(new_ua)
-    ua = new_ua
-end
-
-return {
-    SendMessageEMBED = SendMessageEMBED,
-    SetUser = setUser
-}
+return SendMessageEMBED
