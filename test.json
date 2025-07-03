@@ -1,1 +1,12 @@
-í½ÛM´Ûnøë÷ï_é¾¹ïİ¶İ­´Ûnøë÷ï_ï®µéÎùë¶ÙÍÛM´ÛnøëŞë÷ïµéŞôÛmÚÛM¶ßmôßmùÙİôß½ßM÷çõß½ÚßMûİ­öß½›ßMõİ­ôßM¶Ñ®İ
+{
+    "Name": "UB Hub | ",
+    "workspace": "UBHub",
+    "keysystem": true,
+    "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
+    "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
+    "KeyAPI": "https://gitlab.com/r_soft/main/-/raw/main/KeySystem/API/DiscordV2.lua",
+    "Debug": true,
+    "FullyDebugger": false,
+    "cfservices": true,
+    "PictureScript": "https://gitlab.com/r_soft/main/-/raw/main/UB_hub_logo.png"
+}
