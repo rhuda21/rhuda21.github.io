@@ -6,7 +6,7 @@
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
     "KeyAPI": "https://gitlab.com/r_soft/main/-/raw/main/KeySystem/API/DiscordV2.lua",
     "Debug": true,
-    "FullyDebugger": true,
+    "FullyDebugger": false,
     "cfservices": true,
     "PictureScript": "https://gitlab.com/r_soft/main/-/raw/main/UB_hub_logo.png"
 }
