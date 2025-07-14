@@ -5,6 +5,7 @@
     "Optionsurl": "https://gitlab.com/r_soft/main/-/raw/main/UBHubOptions.lua",
     "LoaderURL": "https://raw.githubusercontent.com/TeamUBHub/UBLoader/refs/heads/main/index/Game.lua",
     "KeyAPI": "https://gitlab.com/r_soft/main/-/raw/main/KeySystem/API/DiscordV2.lua",
+    "Discord": "discord.gg/pn8xyhuSeV",
     "Debug": true,
     "FullyDebugger": false,
     "cfservices": true,
