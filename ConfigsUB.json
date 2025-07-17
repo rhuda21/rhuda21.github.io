@@ -1,5 +1,25 @@
 {
-  "folder": "UBHub5/SaveFolder",
-  "active": true
+  "settings": {
+    "baseFolder": "UBHub5/SaveFolder",
+    "active": true
+  },
+  "games": [
+    {
+      "gameId": "17574618959",
+      "name": "Baseplate",
+      "configs": [
+        {
+          "name": "Test1",
+          "source": "url",
+          "path": "https://rhuda21.github.io/Cloud%20Configs/Baseplate/Test.json"
+        },
+        {
+          "name": "Community Config",
+          "source": "url",
+          "path": "https://example.com/configs/game1_community.json",
+          "lastUpdated": ""
+        }
+      ]
+    }
+  ]
 }
-  
