@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Controller</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        #messages { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll; margin-bottom: 10px; }
+        #clientId { width: 200px; padding: 5px; }
+        #message { width: 70%; padding: 5px; }
+        button { padding: 5px 15px; margin-left: 5px; }
+    </style>
+</head>
+<body>
+    <h1>WebSocket Controller</h1>
+    <div>
+        <input type="text" id="clientId" placeholder="Enter Client ID">
+        <button onclick="connect()">Connect</button>
+    </div>
+    <div id="messages"></div>
+    <div>
+        <input type="text" id="message" placeholder="Type your command">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        let socket;
+        const clientId = 'controller-' + Math.random().toString(36).substr(2, 9);
+        
+        function connect() {
+            const targetClientId = document.getElementById('clientId').value;
+            if (!targetClientId) {
+                alert('Please enter a client ID');
+                return;
+            }
+            
+            const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+            socket = new WebSocket(`${protocol}//${window.location.host}/ws/${clientId}/${targetClientId}`);
+            
+            socket.onmessage = (event) => {
+                const messages = document.getElementById('messages');
+                messages.innerHTML += '<div>' + event.data + '</div>';
+                messages.scrollTop = messages.scrollHeight;
+            };
+            
+            socket.onclose = () => {
+                const messages = document.getElementById('messages');
+                messages.innerHTML += '<div>Disconnected from server</div>';
+            };
+        }
+        
+        function sendMessage() {
+            const message = document.getElementById('message').value;
+            if (message && socket && socket.readyState === WebSocket.OPEN) {
+                socket.send(message);
+                document.getElementById('message').value = '';
+            }
+        }
+        document.getElementById('message').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>
